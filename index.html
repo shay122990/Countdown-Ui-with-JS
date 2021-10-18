@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" type="image/png" href="media/Original.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Countdown</title>
+</head>
+<body>
+    <!-- Video Background -->
+    <video class="video-background" loop muted autoplay>
+        <source src="media/time.mp4" >
+    </video>
+    <div class="video-overlay"></div>
+    <!-- Container -->
+    <div class="container">
+        <!-- Input -->
+        <div class="input-container" id="input-container" hidden>
+            <h1>Create Countdown!</h1>
+            <form  class="form" id="countdownDorm">
+                <label for="title">Title</label>
+                <input type="title" id="title" placeholder="What are you counting down to?">
+                <label for="date-picker">Select a Date</label>
+                <input type="date" id="date-picker">
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+        <!-- Countdown -->
+        <div class="countdown" id="countdown" hidden>
+            <h1 id="countdown-title">Countdown Began</h1>
+            <ul>
+                <li><span>3</span>Days</li>
+                <li><span>4</span>Hours</li>
+                <li><span>43</span>Minutes</li>
+                <li><span>22</span>Seconds</li>
+            </ul>
+            <button id="countdown-button">Reset</button>
+        </div>
+        <!-- Complete -->
+        <div class="complete" id="complete">
+            <h1 class="complete-title">Countdown Complete!</h1>
+            <h1 id="complete-info">Countdown Finished on 19-11-21</h1>
+            <button id="complete">New Countdown</button>
+        </div>
+    </div>
+    <!-- Script -->
+    <script src="script.js"></script>
+</body>
+</html>
