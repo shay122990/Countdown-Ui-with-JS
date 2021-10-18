@@ -4,9 +4,9 @@
 
 Before you read about this project, check this video out ['Slapsgiving'](https://www.youtube.com/watch?v=jq2e6VQOMPs). <br>
 This is a custom countdown app built with vanilla JS.<br>
-In this project you can select a date to countdown to and it will display how long you've left down to a second. It's set, that you cannot countdown from past dates. If you change your mind, you can reset your countdown. And when your countdown is done, it will show you an animated clebratory message of completion. From there, you can click on a button and start a new countdown.
+In this project you can select a date to countdown to and it will display how long you've left down to a second. It's set, that you cannot countdown from past dates. If you didn't enter a date an alert message will pop up to notify you. If you change your mind, you can reset your countdown. And when your countdown is done, it will show you an animated clebratory message of completion. From there, you can click on a button and start a new countdown.
 <br>
-You can save your countdown data to your local storage. If the countdown is ongoing, the input form will be hidden, and you'll see your countdow displayed when you refresh.
+You can save your countdown data to your local storage. If the countdown is ongoing, the input form will be hidden, and you'll see your countdown displayed when you refresh.
 This is a good way to learn date input objects and timing events in JS. You can apply this as a side project to your main one, learn the methods applied, or simply modify it to your needed preference like the Slapsgiving countdown. ( If you're a HIMYM fan, you'll get it :) )
 
 ## Preview
